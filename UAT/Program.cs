@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace UAT
 {
@@ -15,7 +16,8 @@ namespace UAT
         {
             int i = 0;
             int j = 10;
-            int k = j / i;
+            System.Writeline(j.ToString());
+            File.OpenRead("InvalidFile");
             CreateHostBuilder(args).Build().Run();
         }
 
