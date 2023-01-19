@@ -14,9 +14,9 @@ namespace UAT
     {
         public static void Main(string[] args)
         {
-            int i = 0;
-            int j = 10.10;
-            Console.WriteLine((j/i).ToString());
+            int[] myNum = {10, 20, 30, 40};
+
+            Console.WriteLine(myNum[5].ToString());
             File.OpenRead("InvalidFile");
             CreateHostBuilder(args).Build().Run();
         }
