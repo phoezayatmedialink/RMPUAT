@@ -15,7 +15,7 @@ namespace UAT
         public static void Main(string[] args)
         {
             int i = 0;
-            int j = 10;
+            int j = 10.10;
             Console.WriteLine((j/i).ToString());
             File.OpenRead("InvalidFile");
             CreateHostBuilder(args).Build().Run();
