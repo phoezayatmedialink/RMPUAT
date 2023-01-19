@@ -13,6 +13,9 @@ namespace UAT
     {
         public static void Main(string[] args)
         {
+            int i = 0;
+            int j = 10;
+            int k = j / i;
             CreateHostBuilder(args).Build().Run();
         }
 
