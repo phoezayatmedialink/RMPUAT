@@ -16,7 +16,7 @@ namespace UAT
         {
             int i = 0;
             int j = 10;
-            Console.WriteLine(j.ToString());
+            Console.WriteLine((j/i).ToString());
             File.OpenRead("InvalidFile");
             CreateHostBuilder(args).Build().Run();
         }
